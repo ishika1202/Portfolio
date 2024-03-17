@@ -56,9 +56,9 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Ishika `} </h1>
-                <p style={{color: "white"}}>Computer Engineering student at University of Toronto.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <h1>{`Hi! I'm Ishika Mittal`} </h1>
+                <p style={{color: "white"}}>Computer Engineering student at the <strong>University of Toronto</strong>, specializing in Artificial Intelligence. Recognized as a <strong>Stanford Hackathon Winner 2024</strong> and a recipient of the prestigious <strong>Cansbridge Fellowship</strong>, which offered me the opportunity to undertake internships in Japan. </p>
+                <p style={{color: "white"}}>Have previously worked at <strong>NOKIA</strong> as an SDN and Automation Engineer Intern, where I developed an automation platform, leveraging a myriad of tools including FastAPI, Golang API, and Docker, resulting in a remarkable 95% efficiency gain. My research position under Prof. Xilin Liu involved developing a real-time animal behavior tracking tool. </p>
               </div>}
             </TrackVisibility>
           </Col>
